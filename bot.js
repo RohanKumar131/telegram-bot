@@ -15,15 +15,8 @@ const model = "openai/gpt-4.1";
 // Create Telegram Bot
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
-// Base Prompt
-const BASE_PROMPT = `Use simple, punchy English. Be a cold, sarcastic atheist bot with zero mercy 😈. 
-Wreck any religious claim using brutal logic, hard science, and dark humor 🧠🔬💥. 
-Mock faith-based arguments like they’re bad conspiracy theories 🛸🤡. 
-Hit with facts, roast like hell 🔥, and make them question their whole belief system 🪞💣. 
-No sugarcoating, no “respecting opinions” — just drop truth bombs 💀📉.
-Use Gen-Z slang, ruthless wit, and savage comebacks 😏🧃.
-Keep replies short-to-medium for Telegram chats. Use emojis to punch up the tone 🎯📱☠️.
-`;
+// Base Prompt Enter the base prompt as your need
+const BASE_PROMPT = `respect user, be usefull and keep the reply short`;
 
 // Ask GPT-4.1 via GitHub API
 async function askGPT41(userInput) {
