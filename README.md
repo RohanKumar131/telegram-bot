@@ -1,2 +1,2 @@
-# herobrine_agent_bot
-A telegram bot to roast and destroy theists (believers) arguments with a scientific, atheistic point of view.
+A simple Telegram bot that uses a Free or paid ai model to chat to user in Telegram group or personal chat>
+Modify the base prompt in bot.js as your liking to customize the behaviour and responses.
